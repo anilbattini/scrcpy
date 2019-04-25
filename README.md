@@ -7,8 +7,13 @@ It works on _GNU/Linux_, _Windows_ and _MacOS_.
 ![screenshot](assets/screenshot-debian-600.jpg)
 
 
-## Setup (short)
+## Setup (short for MacOS)
 
+## If brew is installed/can be installed, you can use this application in one step.
+### brew install scrcpy 
+Now run 'scrcpy' from terminal while phone connected with usbDebugging enabled.
+
+## If you can't install/access brew or you want to build app manually, follow these.
 ### Prerequisites:
 1) adb tools must be setup. You should be able to access 'adb' command from your terminal.
 2) sudo brew install sdl2 ffmpeg (or) sudo port install ffmpeg
@@ -24,7 +29,7 @@ https://github.com/anilbattini/scrcpy/archive/master.zip
 5) sudo ninja install (Make sure phone is connected to your PC/Laptop with usbDebugging enabled)
 6) Final step: Start screen mirroring by running the command 'scrcpy'
 
-#### Note: If any of the above is confusing or you got stuck anywhere, please just google it.
+#### Note: If any of the above is confusing or you got stuck anywhere, please just google it or go through following detailed setup.
 
 
 ## Setup (Detailed)
