@@ -24,7 +24,7 @@ https://github.com/anilbattini/scrcpy/archive/master.zip
 5) sudo ninja install (Make sure phone is connected to your PC/Laptop with usbDebugging enabled)
 6) Final step: Start screen mirroring by running the command 'scrcpy
 
-Note: If any of the above is confusing or stuck, just google it.
+#### Note: If any of the above is confusing or you got stuck anywhere, please just google it.
 
 
 ## Setup (Detailed)
