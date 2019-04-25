@@ -7,7 +7,29 @@ It works on _GNU/Linux_, _Windows_ and _MacOS_.
 ![screenshot](assets/screenshot-debian-600.jpg)
 
 
-## Requirements
+## Setup (short)
+
+### Prerequisites:
+1) adb tools must be setup. You should be able to access 'adb' command from your terminal.
+2) sudo brew install sdl2 ffmpeg (or) sudo port install ffmpeg
+3) sudo brew install gcc pkg-config meson zip (or) sudo port install meson
+
+
+### Setup:
+1) Download scrcpy-master.zip and unzip it in your workspace.
+https://github.com/anilbattini/scrcpy/archive/master.zip
+2) In terminal go to folder 'scrcpy-master' and run the following, one by one.
+3) meson x --buildtype release --strip -Db_lto=true -Dprebuilt_server=scrcpy-server.jar
+4) cd x
+5) sudo ninja install (Make sure phone is connected to your PC/Laptop with usbDebugging enabled)
+6) Final step: Start screen mirroring by running the command 'scrcpy
+
+Note: If any of the above is confusing or stuck, just google it.
+
+
+## Setup (Detailed)
+
+### Requirements
 
 The Android part requires at least API 21 (Android 5.0).
 
