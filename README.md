@@ -17,7 +17,9 @@ Now run 'scrcpy' from terminal while phone connected with usbDebugging enabled.
 ### Prerequisites:
 1) adb tools must be setup. You should be able to access 'adb' command from your terminal.
 2) sudo brew install sdl2 ffmpeg (or) sudo port install ffmpeg 
+
 Note: To use 'port' command, you should have 'macports' installed.
+
 3) sudo brew install gcc pkg-config meson zip (or) sudo port install meson
 
 
